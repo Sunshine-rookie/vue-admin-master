@@ -1,0 +1,374 @@
+/* reset */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details,
+a,
+img {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+    font-weight: 400;
+}
+
+caption {
+    text-align: left;
+    font-weight: 400;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-size: 100%;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label,
+summary {
+    cursor: default;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: 700;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+    font: 12px/1.14 "微软雅黑", \5b8b\4f53;
+    color: #555555;
+    outline: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #555555;
+}
+
+
+/* iconfont */
+
+@font-face {
+    font-family: 'iconfontyyy';
+    /* project id 309204 */
+    src: url('//at.alicdn.com/t/font_g6zy1l2tmsk5u3di.eot');
+    src: url('//at.alicdn.com/t/font_g6zy1l2tmsk5u3di.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_g6zy1l2tmsk5u3di.woff') format('woff'), url('//at.alicdn.com/t/font_g6zy1l2tmsk5u3di.ttf') format('truetype'), url('//at.alicdn.com/t/font_g6zy1l2tmsk5u3di.svg#iconfont') format('svg');
+}
+
+.iconfontyyy {
+    font-family: "iconfontyyy" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* headerbar */
+
+.headerbar {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    background: #2dc3e8
+}
+
+.headerbar i {
+    cursor: pointer;
+}
+
+.logo {
+    height: 24px;
+    padding: 8px 16px;
+    float: left;
+}
+
+.classify {
+    float: left;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 20px
+}
+
+.header-btn {
+    float: right;
+    padding: 8px;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 20px
+}
+
+.header-btn i {
+    margin-left: 20px;
+}
+
+
+/* siderbar */
+
+.siderbar {
+    position: fixed;
+    width: 250px;
+    left: 0;
+    top: 40px;
+    bottom: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #2c3e51
+}
+
+
+/* content */
+
+.content {
+    position: fixed;
+    left: 250px;
+    top: 40px;
+    right: 0;
+    bottom: 0
+}
+
+.navbar-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    z-index: 10;
+}
+
+.navbar-btn i {
+    cursor: pointer;
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.single_screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.double_screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.left_screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+    background: #fff
+}
+
+.right_screen {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background: #fff
+}
+
+.screen_title {
+    height: 30px;
+    border-bottom: 1px solid #2dc3e8;
+    overflow: hidden;
+}
+
+.screen_title div {
+    width: 20%;
+    margin-top: 4px;
+    text-align: center;
+    background: #ccc;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 4px;
+}
+
+
+/* navbar */
+
+.navbar {
+
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 30px;
+    border-bottom: 1px solid #2dc3e8;
+    background: #ccc;
+}
+
+.navbar-list {
+    overflow: hidden;
+    margin-left: 10px;
+    width: 100%;
+    height: 26px;
+}
+
+.navbar-list li {
+    position: relative;
+    float: left;
+    width: 8%;
+    margin-top: 2px;
+    text-align: center;
+    background: #fff;
+    height: 26px;
+    line-height: 26px;
+    /*color: #fff;*/
+    border-radius: 6px;
+    margin-right: 4px;
+}
+
+.navbar-list li div {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.navbar-list li i {
+    cursor: pointer;
+    position: absolute;
+    padding-right: 5px;
+    right: 0;
+    top: 0
+}
+
+.navbar-list li i:hover {
+    color: red
+}
+
+
+/* router-view */
+
+.router-view {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 30px;
+    background-color: palegreen
+}
+
+
+/* xitong */
+
+.xitong {
+    font-size: 30px;
+    color: red
+}
