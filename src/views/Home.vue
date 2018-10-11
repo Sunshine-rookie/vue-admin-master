@@ -114,7 +114,7 @@
         <el-col :span="24" class="footer">
             <div style="text-align:center;position:relative;">
                 <span style="position:absolute;top:0;left:0;">上次登录：<span id="cg">{{date}}</span></span>&nbsp;&nbsp;&nbsp;
-                <span>© Copyright &nbsp;2017&nbsp;&nbsp;</span><span><a href="#" style="color:#184c93;">邦邦物流</a></span>&nbsp;&nbsp;&nbsp;版权所有
+                <span>© Copyright &nbsp;2018&nbsp;&nbsp;</span><span><a href="#" style="color:#184c93;">邦邦物流</a></span>&nbsp;&nbsp;&nbsp;版权所有
             </div>
         </el-col>
 
