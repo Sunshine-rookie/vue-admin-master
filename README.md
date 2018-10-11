@@ -1,4 +1,4 @@
-**demo**: [https://Sunshine-rookie.github.io/vueadmin/](https://Sunshine-rookie.github.io/vueadmin/)
+**demo**: [https://Sunshine-rookie.github.io/vue-admin-master/](https://Sunshine-rookie.github.io/vue-admin-master/)
 
 # To start
 
@@ -44,10 +44,8 @@ You can change theme by
    to
    import './assets/theme/your-theme/index.css'
 ```
-4. Edit src/styles/vars.scss
 
-![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
+
 
 # Browser support
 
