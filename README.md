@@ -1,4 +1,4 @@
-**demo**: [https://Sunshine-rookie.github.io/vue-admin-master/](https://Sunshine-rookie.github.io/vue-admin-master/)
+**demo**: [https://Sunshine-rookie.github.io/vue-admin-master/dist/](https://Sunshine-rookie.github.io/vue-admin-master/dist/)
 
 # To start
 
