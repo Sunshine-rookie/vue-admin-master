@@ -44,11 +44,6 @@ You can change theme by
    to
    import './assets/theme/your-theme/index.css'
 ```
-4. Edit src/styles/vars.scss
-
-![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
-
 # Browser support
 
 Modern browsers and IE 10+.
